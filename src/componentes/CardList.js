@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from './Card'
-import SearchBox from './SearchBox'
+import Card from './Card';
+import SearchBox from './SearchBox';
 
 class CardList extends React.Component {
     constructor(props) {
@@ -75,16 +75,23 @@ class CardList extends React.Component {
             <section className='card-list'>
 
                 <div className='card-list__list-header'>
+
+                    <a href='https://github.com/danielafarias/rick-and-morty'>
+                        <div className='card-list__list-header__doc-bar'>
+                            <img src='https://static.platzi.com/media/achievements/badge-git-github-pt-0c2eb2bc-b0dd-4cac-be85-5ab06ccf548d.png' alt='github' className='card-list__list-header__doc-bar__github'/>
+                            <p>GitHub for more</p>
+                        </div>
+                    </a>
                     <img src='https://cdn140.picsart.com/271010551004211.png?type=webp&to=min&r=640' alt='logo' className='logo'/>
                     <img src='https://cdn6.aptoide.com/imgs/1/6/9/169d6adfd60f44a64bcfe0764a80d0c4_icon.png' alt='rick-logo' className='card-list__list-header__rick-logo'/>
-                    <SearchBox placeholder='Search the character...' onChange={(evento) => this.searchCharacter(evento)} onKeyDown={(evento) => this.searchCharacter(evento)}/>
+                    <SearchBox placeholder='Press Enter to search...' onChange={(evento) => this.searchCharacter(evento)} onKeyDown={(evento) => this.searchCharacter(evento)}/>
                 </div>
                 
                 <div className='card-list__body'>
                     {this.charactersCardsCreate()}
                     
                         <button className='card-list__body__button' onClick={() => this.loadMore()}>
-                            Meet the Characters
+                            Load More
                         </button>
                     
                 </div>

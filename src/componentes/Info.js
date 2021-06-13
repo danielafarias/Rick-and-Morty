@@ -26,6 +26,12 @@ class Info extends React.Component {
             return (
                 <section className='info'>
                     <div className='info__header'>
+                        <a href='https://github.com/danielafarias/rick-and-morty'>
+                            <div className='info__header__doc-bar'>
+                                <img src='https://static.platzi.com/media/achievements/badge-git-github-pt-0c2eb2bc-b0dd-4cac-be85-5ab06ccf548d.png' alt='github' className='info__header__doc-bar__github'/>
+                                <p>GitHub for more</p>
+                            </div>
+                        </a>
                         <img src='https://cdn140.picsart.com/271010551004211.png?type=webp&to=min&r=640' alt='logo' className='logo'/>
                     </div>
                     <div className='info__body'>

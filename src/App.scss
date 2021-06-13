@@ -6,6 +6,10 @@ h2 {
     color: yellowgreen;
 }
 
+.logo {
+    padding: -10px;
+}
+
 .card-list {
     background-color: greenyellow;
     display: flex;
@@ -21,6 +25,34 @@ h2 {
         align-items: center;
         justify-content: center;
 
+        &__doc-bar {
+            margin-top: 90px;
+            margin-bottom: -100px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            font-weight: bold;
+            margin-left: -380px;
+            color: yellowgreen;
+            
+            p {
+                width: 70px;
+            }
+
+            &__github{
+                margin-right: 5px;
+                width: 20%;
+            }
+
+            &:hover {
+                opacity: 0.8;
+                cursor: pointer;
+                color: darkseagreen;
+                box-shadow: teal;
+	            transition: 0.5s;
+            }
+        }
+
         &__rick-logo {
             width: 20%;
             margin-bottom: 100px;
@@ -28,13 +60,18 @@ h2 {
         }
 
         &__search-box {
+            margin-top: -40px;
             width: 70%;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
             padding: 20px;
             font-size: 25px;
             border-width: 4px;
             border-color: yellowgreen;
             border-radius: 9px;
+
+            &:hover {
+                cursor: text;
+            }
         }
     }
 
@@ -120,8 +157,34 @@ h2 {
     &__header {
         display: flex;
         justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
         margin-bottom: -100px;
         margin-top: -100px;
+
+        &__doc-bar {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: -90px;
+            margin-top: 150px;
+            color: yellowgreen;
+            font-weight: bold;
+
+            &__github {
+                margin-bottom: -5px;
+                width: 40%;
+            }
+
+            &:hover {
+                opacity: 0.8;
+                cursor: pointer;
+                color: darkseagreen;
+                box-shadow: teal;
+	            transition: 0.5s;
+            }
+        }
     }
 
     &__body {
@@ -152,6 +215,12 @@ h2 {
             font-size: 20px;
             letter-spacing: 0.2em;
             margin-left: 110px;
+
+            &:hover {
+                cursor: pointer;
+                background-color: teal;
+                border-color: teal;
+            }
         }
     }
 
@@ -166,14 +235,45 @@ h2 {
 @media only screen and (max-width: 700px) {
 
     .logo {
-        width: 100%;
+        padding: -100%;
     }
+    
     
     .card-list {
         background-color: whitesmoke;
         
     
         &__list-header {
+
+            &__doc-bar {
+                margin-top: 90px;
+                margin-bottom: -70px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                margin-left: 200px;
+                color: yellowgreen;
+                width: 20%;
+                
+                p {
+                    width: 300px;
+                }
+    
+                &__github{
+                    margin-bottom: -8px;
+                    width: 40%;
+                }
+    
+                &:hover {
+                    opacity: 0.8;
+                    cursor: pointer;
+                    color: darkseagreen;
+                    box-shadow: teal;
+                    transition: 0.5s;
+                }
+            }
     
             &__rick-logo {
                 width: 30%;
@@ -183,6 +283,7 @@ h2 {
     
             &__search-box {
                 width: 80%;
+                margin-top: 5px;
                 margin-bottom: 30px;
                 padding: 10px;
                 font-size: 15px;
@@ -231,6 +332,36 @@ h2 {
 
         &__header {
             margin-top: -60px;
+
+            &__doc-bar {
+                margin-top: 90px;
+                margin-bottom: -70px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                margin-left: 50px;
+                color: yellowgreen;
+                width: 50%;
+                
+                p {
+                    width: 130px;
+                }
+    
+                &__github{
+                    margin-bottom: -8px;
+                    width: 40%;
+                }
+    
+                &:hover {
+                    opacity: 0.8;
+                    cursor: pointer;
+                    color: darkseagreen;
+                    box-shadow: teal;
+                    transition: 0.5s;
+                }
+            }
         }
     
         &__body {
@@ -250,6 +381,12 @@ h2 {
                 font-weight: bold;
                 margin-top: 15px;
                 margin-left: -15px;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: yellowgreen;
+                    border-color: yellowgreen;
+                }
 
             }
         }
