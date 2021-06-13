@@ -1,8 +1,8 @@
 # Screenshots
-![Captura de tela de 2021-06-12 23-57-28](https://user-images.githubusercontent.com/79869120/121793935-4ec87080-cbda-11eb-8e98-060059f8728d.png)
-![Captura de tela de 2021-06-12 23-57-43](https://user-images.githubusercontent.com/79869120/121793937-4f610700-cbda-11eb-906d-0929fd277faf.png)
-![Captura de tela de 2021-06-12 23-58-11](https://user-images.githubusercontent.com/79869120/121793938-4ff99d80-cbda-11eb-82de-a9854d636012.png)
-![Captura de tela de 2021-06-12 23-58-20](https://user-images.githubusercontent.com/79869120/121793939-4ff99d80-cbda-11eb-8ea2-2d25d816b61d.png)
+![Captura de tela de 2021-06-13 03-02-23](https://user-images.githubusercontent.com/79869120/121797359-0dde5500-cbf6-11eb-9bcc-7aec94f01a19.png)
+![Captura de tela de 2021-06-13 03-02-36](https://user-images.githubusercontent.com/79869120/121797360-0e76eb80-cbf6-11eb-9db5-e1fc2ef56253.png)
+![Captura de tela de 2021-06-13 03-03-03](https://user-images.githubusercontent.com/79869120/121797362-0f0f8200-cbf6-11eb-9e0f-998b0a907f8d.png)
+![Captura de tela de 2021-06-13 03-03-22](https://user-images.githubusercontent.com/79869120/121797364-0f0f8200-cbf6-11eb-81fa-2536bc26001b.png)
 
 # APP
 🔗 https://the-rick-and-morty-app.herokuapp.com/
