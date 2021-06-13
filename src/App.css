@@ -1,38 +1,175 @@
-.App {
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: yellowgreen;
+}
+
+
+
+/* Bloco Card-list */
+
+.card-list {
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: space-evenly;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-list__list-header {
+  background-color: whitesmoke;
+  margin-top: -50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card-list__list-header__rick-logo {
+  width: 20%;
+  margin-bottom: 100px;
+  margin-top: -140px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-list__list-header__search-box {
+  width: 70%;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 25px;
+  border-width: 4px;
+  border-color: yellowgreen;
+  border-radius: 9px;
 }
+
+/* Inicio do Card */
+
+.card-list__card {
+  display: flex;
+  background-color: slategrey;
+  border-radius: 30px;
+  color: whitesmoke;
+  text-indent: 1em;
+  letter-spacing: 0.1em;
+  margin: 10px;
+}
+
+.card-list__card:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  margin-left: -1px;
+  margin-right: -1px;
+  color: darkseagreen;
+}
+
+.card-list__card__img {
+  border-radius: 30px 0 0 30px;
+}
+
+.card-list__card__info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.card-list__card__status {
+  display: flex;
+  max-width: 50%;
+  align-items: center;
+ 
+  margin-left: 15px;
+}
+
+.card-list__card__status__point {
+  width: 5%;
+  max-width: 100%;
+}
+
+/* Fim do Card */
+
+.card-list__body__button {
+  background-color: transparent;
+  border-color: teal;
+  border-radius: 30px;
+  color: teal;
+  font-weight: bold;
+  border-width: 3px;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.card-list__body__button:hover {
+  color: whitesmoke;
+  background-color: teal;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.4s;
+}
+
+.card-list__body__footer {
+  display: flex;
+  justify-content: space-evenly;
+  color:silver;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Fim do CardList */
+
+
+/* Inicio do Info */
+
+.info__header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: -100px;
+  margin-top: -100px;
+}
+
+.info__body {
+  display: flex;
+  letter-spacing: 0.1em;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  padding: 30px;
+  text-indent: 20px;
+}
+
+.info__body__img {
+  width: 30%;
+  border-radius: 100%;
+}
+
+.info__body__button {
+  background-color: yellowgreen;
+  border-color: yellowgreen;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  margin-left: 110px;
+}
+
+.info__footer {
+  display: flex;
+  justify-content: space-evenly;
+  color:silver;
+  margin: 40px;
+}
+
+/* Fim do Info */

@@ -1,0 +1,263 @@
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: yellowgreen;
+}
+
+.card-list {
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+
+    &__list-header {
+        background-color: whitesmoke;
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &__rick-logo {
+            width: 20%;
+            margin-bottom: 100px;
+            margin-top: -140px;
+        }
+
+        &__search-box {
+            width: 70%;
+            margin-bottom: 30px;
+            padding: 20px;
+            font-size: 25px;
+            border-width: 4px;
+            border-color: yellowgreen;
+            border-radius: 9px;
+        }
+    }
+
+    &__card {
+        display: flex;
+        background-color: slategrey;
+        border-radius: 30px;
+        color: whitesmoke;
+        text-indent: 1em;
+        letter-spacing: 0.1em;
+        margin: 10px;
+
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+            margin-left: -1px;
+            margin-right: -1px;
+            color: darkseagreen;
+        }
+
+        &__img {
+            border-radius: 30px 0 0 30px;
+        }
+
+        &__info {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+
+        &__status {
+            display: flex;
+            max-width: 50%;
+            align-items: center;
+           
+            margin-left: 15px;
+
+            &__point {
+                width: 5%;
+                max-width: 100%;
+            }
+        }
+    }
+
+    &__body {
+        &__button {
+            background-color: transparent;
+            border-color: teal;
+            border-radius: 30px;
+            color: teal;
+            font-weight: bold;
+            border-width: 3px;
+            font-size: 16px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+    
+            &:hover {
+                color: whitesmoke;
+                background-color: teal;
+                cursor: pointer;
+                opacity: 0.8;
+                transition: 0.4s;
+            }
+        }
+
+        &__footer {
+            display: flex;
+            justify-content: space-evenly;
+            color:silver;
+            background-color: whitesmoke;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.info {
+    &__header {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: -100px;
+        margin-top: -100px;
+    }
+
+    &__body {
+        display: flex;
+        letter-spacing: 0.1em;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-top: 1px solid silver;
+        border-bottom: 1px solid silver;
+        padding: 30px;
+        text-indent: 20px;
+
+        &__img {
+            width: 30%;
+            border-radius: 100%;
+        }
+
+        &__button {
+            background-color: yellowgreen;
+            border-color: yellowgreen;
+            border-radius: 5px;
+            color: whitesmoke;
+            font-weight: bold;
+            width: 100px;
+            height: 40px;
+            font-size: 20px;
+            letter-spacing: 0.2em;
+            margin-left: 110px;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-evenly;
+        color:silver;
+        margin: 40px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .logo {
+        width: 100%;
+    }
+    
+    .card-list {
+        background-color: whitesmoke;
+        
+    
+        &__list-header {
+    
+            &__rick-logo {
+                width: 30%;
+                margin-top: -120px;
+                margin-bottom: 2em;
+            }
+    
+            &__search-box {
+                width: 80%;
+                margin-bottom: 30px;
+                padding: 10px;
+                font-size: 15px;
+                border-width: 5px;
+                border-color: teal;
+                border-radius: 13px;
+                color: teal;
+
+                &:hover {
+                    background-color: teal;
+                    color: whitesmoke;
+                }
+            }
+        }
+    
+        &__card {
+            display: flex;
+            background-color: teal;
+            color: whitesmoke;
+    
+            &__img {
+                width: 50%;
+            }
+    
+            &__info {
+                font-size: 10px;
+            }
+    
+            &__status {
+
+                &__point {
+                    width: 10%;
+                }
+            }
+        }
+    
+        &__body {
+    
+            &__footer {
+                color:yellowgreen;
+            }
+        }
+    }
+    
+    .info {
+
+        &__header {
+            margin-top: -60px;
+        }
+    
+        &__body {
+            flex-direction: column;
+            border-top: 1px solid yellowgreen;
+            border-bottom: 1px solid yellowgreen;
+    
+            &__img {
+                width: 50%;
+            }
+    
+            &__button {
+                background-color: teal;
+                border-color: teal;
+                border-radius: 10px;
+                color: whitesmoke;
+                font-weight: bold;
+                margin-top: 15px;
+                margin-left: -15px;
+
+            }
+        }
+    
+        &__footer {
+            color:greenyellow;
+            margin: 30px;
+        }
+    }
+    
+}
