@@ -1,3 +1,12 @@
+# Screenshots
+![Captura de tela de 2021-06-12 23-57-28](https://user-images.githubusercontent.com/79869120/121793935-4ec87080-cbda-11eb-8e98-060059f8728d.png)
+![Captura de tela de 2021-06-12 23-57-43](https://user-images.githubusercontent.com/79869120/121793937-4f610700-cbda-11eb-906d-0929fd277faf.png)
+![Captura de tela de 2021-06-12 23-58-11](https://user-images.githubusercontent.com/79869120/121793938-4ff99d80-cbda-11eb-82de-a9854d636012.png)
+![Captura de tela de 2021-06-12 23-58-20](https://user-images.githubusercontent.com/79869120/121793939-4ff99d80-cbda-11eb-8ea2-2d25d816b61d.png)
+
+# APP
+🔗 https://the-rick-and-morty-app.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
